@@ -1,0 +1,50 @@
+body
+{
+    background-image: radial-gradient(circle, rgb(30, 30, 30), rgb(0, 0, 0));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 10px;
+}
+.frame
+{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+.header
+{
+    font-family: 'Lucida Sans', 'Verdana', 'Calibri';
+    font-size: large;
+    color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+}
+.content
+{
+    color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    font-family: 'Lucida Sans', 'Verdana', 'Calibri';
+    font-size: medium;
+}
+.centerize
+{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+.button
+{
+    text-align: center;
+    border: 2px solid white;
+    color: white;
+    font-family: 'Lucida Sans', 'Verdana', 'Calibri';
+    font-size: medium;
+    background-color: rgba(0,0,0,0);
+    transition-duration: 0.5s;
+    width: 100px;
+}
+.button:hover
+{
+    background-color: white;
+    color: black;
+}
